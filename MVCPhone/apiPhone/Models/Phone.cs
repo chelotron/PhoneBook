@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Web;
-
-namespace MVCPhone.Models
+﻿namespace apiPhone.Models
 {
+    using System.ComponentModel.DataAnnotations;
+
     public enum TypeContact
     {
         PhoneNumber,
@@ -13,7 +9,7 @@ namespace MVCPhone.Models
         Facebook,
         Twitter,
         LinkedIN
-    } 
+    }
 
     public class Phone
     {
